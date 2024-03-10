@@ -11,12 +11,12 @@ public class Mediatheque {
 		items.add(i);
 	}
 	
-	public void printCatalog() {
+	public void printCatalogue() {
 		for (Item i : items)
 			i.print();
 	}
 	
-	public void printOnlyBooks() {
+	public void printBooksOnly() {
 		throw new UnsupportedOperationException("Not supported yet."); 
 		/*
 		//avec instanceof
@@ -26,7 +26,7 @@ public class Mediatheque {
 		*/
 	}
 
-	public void printOnlyCDs() {
+	public void printCDsOnly() {
 		throw new UnsupportedOperationException("Not supported yet."); 
 	}
 
